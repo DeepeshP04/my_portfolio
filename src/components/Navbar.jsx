@@ -4,9 +4,9 @@ import "./Navbar.css"
 const Navbar = () => {
     const [active, setActive] = useState("home")
     return (
-        <div className="navbar">
+        <div className="nav-bar">
             <div className="">
-                <p style={{ color: "#6c63ff", fontWeight: "600", fontSize: "24px" }}>Deepesh Pratap</p>
+                <p style={{ color: "#6c63ff", fontWeight: "600", fontSize: "24px", margin: "0" }}>Deepesh Pratap</p>
             </div>
             <nav className="nav-container">
                 {["home", "about", "portfolio", "contact"].map((item) => (
