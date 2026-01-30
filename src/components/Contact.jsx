@@ -30,8 +30,8 @@ const Contact = () => {
           </div>
 
           <div className="social-links">
-            <a href="#" className="social-icon">LinkedIn</a>
-            <a href="#" className="social-icon">GitHub</a>
+            <a href="https://www.linkedin.com/in/deepesh-pratap/" className="social-icon">LinkedIn</a>
+            <a href="https://github.com/DeepeshP04" className="social-icon">GitHub</a>
             <a href="#" className="social-icon">Twitter</a>
           </div>
         </div>

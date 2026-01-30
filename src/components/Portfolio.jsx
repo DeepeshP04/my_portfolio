@@ -6,35 +6,35 @@ const Portfolio = () => {
       id: 1,
       title: "E-Commerce Platform",
       desc: "Full-stack shop with Stripe integration.",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React", "Python", "MySQL"],
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80", // Replace with your project screenshots
       link: "#",
-      github: "#"
+      github: "https://github.com/DeepeshP04/Qwikmall-Ecommerce-Platform"
     },
     {
       id: 2,
-      title: "Task Management App",
-      desc: "Real-time kanban board with drag-and-drop.",
-      tech: ["JavaScript", "Firebase", "CSS3"],
+      title: "Ryde - Cab Booking",
+      desc: "Book Rides with ease.",
+      tech: ["JavaScript", "Vue.js", "CSS3", "MySQL"],
       image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
-      link: "#",
+      link: "https://1000672.site.guru/",
       github: "#"
     },
     {
       id: 3,
-      title: "Crypto Dashboard",
+      title: "GroceryGo - Grocery App",
       desc: "Live market data tracking with Chart.js.",
-      tech: ["React", "Tailwind", "API"],
+      tech: ["Vue.js", "Javascript", "MySQL", "CSS3"],
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80",
-      link: "#",
+      link: "",
       github: "#"
     }
   ];
 
   const techStack = {
-    Frontend: ["HTML5", "CSS3", "JavaScript", "React", "Tailwind"],
-    Backend: ["Node.js", "Python", "MySQL", "MongoDB", "Express"],
-    Tools: ["Git", "Docker", "Postman", "Figma", "VS Code"]
+    Frontend: ["HTML5", "CSS3", "JavaScript", "React", "Bootstrap"],
+    Backend: ["Python", "Node.js", "MySQL", "MongoDB", "Flask"],
+    Tools: ["Git", "Github", "Postman", "Figma", "VS Code"]
   };
 
   return (

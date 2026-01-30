@@ -31,7 +31,7 @@ const About = () => {
         {/* Right Side: Stats Grid */}
         <div className="about-stats-grid">
           <div className="stat-card">
-            <h3>10+</h3>
+            <h3>3+</h3>
             <p>Projects Built</p>
           </div>
           <div className="stat-card">
