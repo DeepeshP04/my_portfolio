@@ -5,6 +5,12 @@
     background-color: #030014;
     height: 70px;
     padding: 0 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
 }
 
 .nav-container {
