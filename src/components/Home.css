@@ -1,98 +1,131 @@
 .home {
-    min-height: calc(100vh - 90px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 20px;
 }
 
+/* Background Ambient Glow */
+.home-glow {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.15) 0%, transparent 70%);
+  filter: blur(60px);
+  z-index: -1;
+}
+
+/* Badge Styling */
+.badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(108, 99, 255, 0.1);
+  border: 1px solid rgba(108, 99, 255, 0.3);
+  color: #6c63ff;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
+
+/* Heading Effects */
 .main-heading {
-    font-size: 72px;
-    margin: 0;
-    line-height: 1.05;
-    color: white;
-    font-weight: 700;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  line-height: 1.1;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
-.one {
-    margin-top: 20px;
+.text-gradient {
+  background: linear-gradient(90deg, #fff, #6c63ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.two {
-    background: linear-gradient(90deg, #6c63ff, #9f7aea);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
 }
 
 .home-subtitle {
-    color: #c7c7d1;
-    font-size: 18px;
-    max-width: 600px;
-    margin-top: 20px;
-    line-height: 1.6;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: #c7c7d1;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
 }
 
+.home-subtitle span {
+  color: #fff;
+}
+
+/* Skill Tags */
 .skills-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
 }
 
-.skills-section span {
-    padding: 8px 16px;
-    border-radius: 999px;
-    background: rgba(108, 99, 255, 0.15);
-    color: #ede9fe;
-    font-size: 14px;
-    font-weight: 500;
-    border: 1px solid rgba(108, 99, 255, 0.25);
-    transition: transform 0.2s ease, background 0.2s ease;
+.skill-tag {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #b3b3c7;
+  transition: all 0.3s ease;
 }
 
-.skills-section span:hover {
-    transform: translateY(-2px);
-    background: rgba(108, 99, 255, 0.25);
+.skill-tag:hover {
+  background: rgba(108, 99, 255, 0.1);
+  border-color: #6c63ff;
+  color: #fff;
+  transform: translateY(-3px);
 }
 
+/* Buttons */
 .more-section {
-    display: flex;
-    gap: 24px;
-    margin-top: 36px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-.primary-btn,
-.secondary-btn {
-    min-height: 44px;
-    min-width: 170px;
-    border-radius: 6px;
-    font-size: 15px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: all 0.25s ease;
+.primary-btn, .secondary-btn {
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-/* Primary */
 .primary-btn {
-    background: linear-gradient(90deg, #6c63ff, #7c3aed);
-    color: white;
+  background: #6c63ff;
+  color: white;
+  box-shadow: 0 10px 20px rgba(108, 99, 255, 0.2);
 }
 
 .primary-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(108, 99, 255, 0.35);
+  background: #5a52e0;
+  transform: translateY(-2px);
 }
 
-/* Secondary */
 .secondary-btn {
-    background: transparent;
-    color: #ede9fe;
-    border: 1px solid rgba(108, 99, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
 }
 
 .secondary-btn:hover {
-    background: rgba(108, 99, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: white;
 }
