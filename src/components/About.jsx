@@ -1,4 +1,5 @@
 import "./About.css";
+import CV from "../assets/Deepesh_Pratap.pdf"
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
           </p>
 
           <div className="about-actions">
-            <a href="/Deepesh_Pratap_CV.pdf" download className="primary-btn">
+            <a href={CV} download className="primary-btn">
               Download CV
             </a>
             <a href="#portfolio" className="secondary-btn">
