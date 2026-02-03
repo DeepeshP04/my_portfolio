@@ -8,7 +8,7 @@ const Portfolio = () => {
       desc: "Full-stack shop with Stripe integration.",
       tech: ["React", "Python", "MySQL"],
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80", // Replace with your project screenshots
-      link: "#",
+      link: "",
       github: "https://github.com/DeepeshP04/Qwikmall-Ecommerce-Platform"
     },
     {
@@ -18,7 +18,7 @@ const Portfolio = () => {
       tech: ["JavaScript", "Vue.js", "CSS3", "MySQL"],
       image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
       link: "https://1000672.site.guru/",
-      github: "#"
+      github: ""
     },
     {
       id: 3,
@@ -26,8 +26,8 @@ const Portfolio = () => {
       desc: "Live market data tracking with Chart.js.",
       tech: ["Vue.js", "Javascript", "MySQL", "CSS3"],
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80",
-      link: "",
-      github: "#"
+      link: "https://1000573.site.guru/",
+      github: ""
     }
   ];
 
