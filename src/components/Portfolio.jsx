@@ -4,31 +4,31 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      title: "Ryde - Cab Booking",
+      desc: "Book Rides with ease.",
+      tech: ["JavaScript", "Vue.js", "CSS3", "MySQL"],
+      image: "https://images.unsplash.com/photo-1659493430477-3750838e3d61?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://1000672.site.guru/",
+      github: ""
+    },
+    {
+      id: 2,
+      title: "GroceryGo - Grocery App",
+      desc: "Live market data tracking with Chart.js.",
+      tech: ["Vue.js", "Javascript", "MySQL", "CSS3"],
+      image: "https://plus.unsplash.com/premium_vector-1749566933816-4502bb01c7d6?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://1000573.site.guru/",
+      github: ""
+    },
+    {
+      id: 3,
       title: "E-Commerce Platform",
-      desc: "Full-stack shop with Stripe integration.",
+      desc: "Full-stack shop.",
       tech: ["React", "Python", "MySQL"],
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80", // Replace with your project screenshots
       link: "",
       github: "https://github.com/DeepeshP04/Qwikmall-Ecommerce-Platform"
     },
-    {
-      id: 2,
-      title: "Ryde - Cab Booking",
-      desc: "Book Rides with ease.",
-      tech: ["JavaScript", "Vue.js", "CSS3", "MySQL"],
-      image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
-      link: "https://1000672.site.guru/",
-      github: ""
-    },
-    {
-      id: 3,
-      title: "GroceryGo - Grocery App",
-      desc: "Live market data tracking with Chart.js.",
-      tech: ["Vue.js", "Javascript", "MySQL", "CSS3"],
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80",
-      link: "https://1000573.site.guru/",
-      github: ""
-    }
   ];
 
   const techStack = {
@@ -51,8 +51,22 @@ const Portfolio = () => {
                   <div className="overlay-content">
                     <p>{project.desc}</p>
                     <div className="project-links">
-                      <a href={project.github} target="_blank" rel="noreferrer">Code</a>
-                      <a href={project.link} target="_blank" rel="noreferrer" className="demo-btn">Live Demo</a>
+                      {project.github && (
+  <a href={project.github} target="_blank" rel="noreferrer">
+    Code
+  </a>
+)}
+
+{project.link && (
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noreferrer"
+    className="demo-btn"
+  >
+    Live Demo
+  </a>
+)}
                     </div>
                   </div>
                 </div>

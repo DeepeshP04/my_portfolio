@@ -58,7 +58,7 @@ const Contact = () => {
               <span className="icon">📧</span>
               <div>
                 <h4>Email</h4>
-                <p>yourname@example.com</p>
+                <p>pratapdeepesh2@gmail.com</p>
               </div>
             </div>
           </div>
