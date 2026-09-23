@@ -1,7 +1,7 @@
 import "./Home.css";
 
 const Home = () => {
-  const skills = ["HTML/CSS", "JavaScript", "React", "Python", "MySQL"];
+  const skills = ["HTML/CSS", "JavaScript", "React", "Express", "Python", "MySQL"];
 
   return (
     <section id="home" className="section home">

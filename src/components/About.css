@@ -88,7 +88,7 @@
 /* Responsive for Tablets/Phones */
 @media (max-width: 768px) {
     .about {
-        padding: 10px;
+        padding: 24px 32px 24px;
     }
 
     .about-container {

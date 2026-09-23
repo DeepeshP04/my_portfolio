@@ -119,3 +119,9 @@
     gap: 50px;
   }
 }
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 24px 32px 24px;
+    }
+}

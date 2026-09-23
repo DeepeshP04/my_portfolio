@@ -134,6 +134,7 @@
 @media (max-width: 600px) {
   .home {
     padding: 10px;
-    min-height: 90vh;
+    padding-bottom: 24px;
+    min-height: auto;
   }
 }
