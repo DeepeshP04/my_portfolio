@@ -3,12 +3,21 @@ import "./Navbar.css"
 
 const Navbar = () => {
     const [active, setActive] = useState("home")
+    const [menuOpen, setMenuOpen] = useState(false)
     return (
         <div className="nav-bar">
             <div className="">
-                <p style={{ color: "#6c63ff", fontWeight: "600", fontSize: "24px", margin: "0" }}>Deepesh Pratap</p>
+                <p className="first-name" style={{ color: "#6c63ff", fontWeight: "600", fontSize: "24px" }}>Deepesh</p>
+                <p className="full-name" style={{ color: "#6c63ff", fontWeight: "600", fontSize: "24px" }}>Deepesh Pratap</p>
             </div>
-            <nav className="nav-container">
+            {/* Hamburger */}
+      <button
+        className="menu-btn"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        ☰
+      </button>
+            <nav className={`nav-container ${menuOpen ? "open" : ""}`}>
                 {["home", "about", "portfolio", "contact"].map((item) => (
                     <a key={item}
                     href={`#${item}`}
@@ -18,11 +27,6 @@ const Navbar = () => {
                         {item.charAt(0).toUpperCase() + item.slice(1)}
                     </a>
                 ))}
-
-            {/* <a className="nav-links" href="#home">Home</a>
-            <a className="nav-links" href="#about">About</a>
-            <a className="nav-links" href="#portfolio">Portfolio</a>
-            <a className="nav-links" href="#contact">Contact</a> */}
         </nav>
         </div>
     )

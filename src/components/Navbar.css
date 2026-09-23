@@ -18,6 +18,10 @@
     gap: 30px;
 }
 
+.first-name {
+    display: none;
+}
+
 .nav-links {
     position: relative;
     text-decoration: none;
@@ -52,3 +56,40 @@
     transform: scaleX(1);
 }
 
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .full-name {
+        display: none;
+    }
+
+    .first-name {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .nav-container {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        position: absolute;
+        top: 70px;
+        right: 40px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .menu-btn {
+        display: block;
+        color: white;
+    }
+
+    .open {
+        display: flex;
+    }
+}
