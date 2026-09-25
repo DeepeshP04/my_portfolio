@@ -7,12 +7,21 @@ const Portfolio = () => {
       title: "Qwikmall - E-Commerce Platform",
       desc: "Full-stack shop.",
       tech: ["React", "Python", "MySQL"],
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80", // Replace with your project screenshots
+      image: "https://plus.unsplash.com/premium_photo-1683288295814-84a199da83d9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "",
       github: "https://github.com/DeepeshP04/Qwikmall-Ecommerce-Platform"
     },
     {
       id: 2,
+      title: "Kesar - Restaurant Website",
+      desc: "A modern responsive restaurant website.",
+      tech: ["React", "Javascript", "CSS"],
+      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://restaurant-website-dp-2fe0.vercel.app/",
+      github: "https://github.com/DeepeshP04/restaurant-website"
+    },
+    {
+      id: 3,
       title: "Ryde - Cab Booking",
       desc: "Book Rides with ease.",
       tech: ["JavaScript", "Vue.js", "CSS3", "MySQL", "Node.js"],
@@ -20,15 +29,15 @@ const Portfolio = () => {
       link: "https://1000672.site.guru/",
       github: ""
     },
-    {
-      id: 3,
-      title: "GroceryGo - Grocery App",
-      desc: "Live market data tracking with Chart.js.",
-      tech: ["Vue.js", "Javascript", "MySQL", "CSS3", "Node.js"],
-      image: "https://plus.unsplash.com/premium_vector-1749566933816-4502bb01c7d6?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "https://1000573.site.guru/",
-      github: ""
-    },
+    // {
+    //   id: 3,
+    //   title: "GroceryGo - Grocery App",
+    //   desc: "Live market data tracking with Chart.js.",
+    //   tech: ["Vue.js", "Javascript", "MySQL", "CSS3", "Node.js"],
+    //   image: "https://plus.unsplash.com/premium_vector-1749566933816-4502bb01c7d6?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //   link: "https://1000573.site.guru/",
+    //   github: ""
+    // },
   ];
 
   const techStack = {
