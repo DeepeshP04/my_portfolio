@@ -22,6 +22,14 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: "GoBravo - Bravo Cleaning Services",
+      desc: "A modern responsive cleaning services website.",
+      tech: ["Vue.js", "Javascript", "CSS"],
+      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://1000701.site.guru/"
+    },
+    {
+      id: 4,
       title: "Ryde - Cab Booking",
       desc: "Book Rides with ease.",
       tech: ["JavaScript", "Vue.js", "CSS3", "MySQL", "Node.js"],
