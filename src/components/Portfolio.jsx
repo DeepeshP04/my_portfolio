@@ -37,6 +37,15 @@ const Portfolio = () => {
       link: "https://1000672.site.guru/",
       github: ""
     },
+    {
+      id: 5,
+      title: "Aster Café",
+      desc: "A responsive cafe website frontend.",
+      tech: ["React", "CSS3", "Javascript"],
+      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      link: "https://cafe-site-jet-kappa.vercel.app/",
+      github: "https://github.com/DeepeshP04/cafe-site"
+    },
     // {
     //   id: 3,
     //   title: "GroceryGo - Grocery App",
