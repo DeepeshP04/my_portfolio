@@ -20,9 +20,9 @@ const About = () => {
           </p>
 
           <div className="about-actions">
-            <a href={CV} download className="primary-btn">
+            {/* <a href={CV} download className="primary-btn">
               Download CV
-            </a>
+            </a> */}
             <a href="#portfolio" className="secondary-btn">
               View Projects
             </a>
@@ -32,11 +32,11 @@ const About = () => {
         {/* Right Side: Stats Grid */}
         <div className="about-stats-grid">
           <div className="stat-card">
-            <h3>3+</h3>
+            <h3>5+</h3>
             <p>Projects Built</p>
           </div>
           <div className="stat-card">
-            <h3>1+</h3>
+            <h3>1</h3>
             <p>Years Experience</p>
           </div>
           <div className="stat-card">

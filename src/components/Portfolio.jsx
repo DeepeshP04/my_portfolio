@@ -4,21 +4,21 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "Qwikmall - E-Commerce Platform",
-      desc: "Full-stack shop.",
-      tech: ["React", "Python", "MySQL"],
-      image: "https://plus.unsplash.com/premium_photo-1683288295814-84a199da83d9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "https://qwikmall-ecommerce-platform.vercel.app/",
-      github: "https://github.com/DeepeshP04/Qwikmall-Ecommerce-Platform"
+      title: "Elevate Physio",
+      desc: "A one page responsive physiotherapist clinic site.",
+      tech: ["React", "CSS3", "Javascript"],
+      image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907",
+      link: "https://elevate-physio-clinic.vercel.app/",
+      github: "https://github.com/DeepeshP04/elevate-physio-clinic"
     },
     {
       id: 2,
-      title: "Kesar - Restaurant Website",
-      desc: "A modern responsive restaurant website.",
-      tech: ["React", "Javascript", "CSS"],
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "https://restaurant-website-dp-2fe0.vercel.app/",
-      github: "https://github.com/DeepeshP04/restaurant-website"
+      title: "MotionCare",
+      desc: "A responsive physiotherapist clinic site.",
+      tech: ["React", "CSS3", "Javascript"],
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d",
+      link: "https://motioncare-physio-liart.vercel.app/",
+      github: "https://github.com/DeepeshP04/motioncare-physio"
     },
     {
       id: 3,
@@ -30,6 +30,24 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      title: "Kesar - Restaurant Website",
+      desc: "A modern responsive restaurant website.",
+      tech: ["React", "Javascript", "CSS"],
+      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://restaurant-website-dp-2fe0.vercel.app/",
+      github: "https://github.com/DeepeshP04/restaurant-website"
+    },
+    {
+      id: 5,
+      title: "Qwikmall - E-Commerce Platform",
+      desc: "Full-stack shop.",
+      tech: ["React", "Python", "MySQL"],
+      image: "https://plus.unsplash.com/premium_photo-1683288295814-84a199da83d9?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://qwikmall-ecommerce-platform.vercel.app/",
+      github: "https://github.com/DeepeshP04/Qwikmall-Ecommerce-Platform"
+    },
+    {
+      id: 6,
       title: "Ryde - Cab Booking",
       desc: "Book Rides with ease.",
       tech: ["JavaScript", "Vue.js", "CSS3", "MySQL", "Node.js"],
@@ -38,7 +56,7 @@ const Portfolio = () => {
       github: ""
     },
     {
-      id: 5,
+      id: 7,
       title: "Aster Café",
       desc: "A responsive cafe website frontend.",
       tech: ["React", "CSS3", "Javascript"],
