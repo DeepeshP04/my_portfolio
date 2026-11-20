@@ -4,6 +4,15 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      title: "Fithub",
+      desc: "A responsive sports and rehab website.",
+      tech: ["React", "CSS3", "Javascript", "Express"],
+      image: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=1200&q=85",
+      link: "https://fithub-taupe-alpha.vercel.app/",
+      github: ""
+    },
+    {
+      id: 2,
       title: "Elevate Physio",
       desc: "A one page responsive physiotherapist clinic site.",
       tech: ["React", "CSS3", "Javascript"],
@@ -12,7 +21,7 @@ const Portfolio = () => {
       github: "https://github.com/DeepeshP04/elevate-physio-clinic"
     },
     {
-      id: 2,
+      id: 3,
       title: "MotionCare",
       desc: "A responsive physiotherapist clinic site.",
       tech: ["React", "CSS3", "Javascript"],
@@ -21,7 +30,7 @@ const Portfolio = () => {
       github: "https://github.com/DeepeshP04/motioncare-physio"
     },
     {
-      id: 3,
+      id: 4,
       title: "GoBravo - Bravo Cleaning Services",
       desc: "A modern responsive cleaning services website.",
       tech: ["Vue.js", "Javascript", "CSS"],
@@ -29,7 +38,7 @@ const Portfolio = () => {
       link: "https://1000701.site.guru/"
     },
     {
-      id: 4,
+      id: 5,
       title: "Kesar - Restaurant Website",
       desc: "A modern responsive restaurant website.",
       tech: ["React", "Javascript", "CSS"],
@@ -38,7 +47,7 @@ const Portfolio = () => {
       github: "https://github.com/DeepeshP04/restaurant-website"
     },
     {
-      id: 5,
+      id: 6,
       title: "Qwikmall - E-Commerce Platform",
       desc: "Full-stack shop.",
       tech: ["React", "Python", "MySQL"],
@@ -47,7 +56,7 @@ const Portfolio = () => {
       github: "https://github.com/DeepeshP04/Qwikmall-Ecommerce-Platform"
     },
     {
-      id: 6,
+      id: 7,
       title: "Ryde - Cab Booking",
       desc: "Book Rides with ease.",
       tech: ["JavaScript", "Vue.js", "CSS3", "MySQL", "Node.js"],
@@ -56,7 +65,7 @@ const Portfolio = () => {
       github: ""
     },
     {
-      id: 7,
+      id: 8,
       title: "Aster Café",
       desc: "A responsive cafe website frontend.",
       tech: ["React", "CSS3", "Javascript"],
